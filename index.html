@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  
+    <title>My First Page</title> 
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-image: url(93079.jpg);
+    }
+    .text-box{
+        font-size: 45px;
+        font-family: sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-200%);  }
+    span{
+        display: inline-block;
+       animation: mover 6s linear infinite;
+        color: white;
+    }
+    @keyframes mover{
+        0%{
+            text-shadow: 0 0 30px rgba(0,0,0,0);
+        }
+          50%{
+            text-shadow: 0 0 30px rgba(0,0,0,0.30);
+            transform: translatey(30px);
+        }
+         100%{
+            text-shadow: 0 0 30px rgba(0,0,0,0);
+        }
+     }
+    a{
+      font-size: 30px;
+      font-family: sans-serif; 
+        color: white; 
+        text-align: center;
+    }
+    
+
+    
+</style>
+      
+    
+</head>  
+    
+<body>
+  <div class="text-box">
+  <span>My</span> 
+  <span>First</span> 
+  <span>Page</span>  
+ </div>
+<center>
+<a href="home.html">Home</a>
+<img src="arrow-alt-circle-down-regular.svg" width="40"> 
+</center>
+ 
+    
+</html>
+
+
+ 
+         
+ 
+        
+
+
+
